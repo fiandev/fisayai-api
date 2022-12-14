@@ -1,0 +1,7 @@
+{
+  "description": "list sites of daily jobs",
+  "sites": [
+    "wiki(pedia|how)",
+    "(daily|tips)"
+    ]
+}

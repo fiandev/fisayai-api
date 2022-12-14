@@ -1,0 +1,32 @@
+{
+  "name": "fisayai-api",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "repository": "https://github.com/fiandev/fisayai-api.git",
+  "bugs": "https://github.com/fiandev/fisayai-api/issues",
+  "homepage": "https://github.com/fiandev/fisayai-api#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "dev": "tsc --watch",
+    "start": "nodemon ./build/index.js"
+  },
+  "keywords": [],
+  "author": "fiandev",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.12",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "express": "^4.18.2",
+    "express-device": "^0.4.2",
+    "google": "^2.1.0",
+    "nodemon": "^2.0.20",
+    "require-all": "^3.0.0",
+    "translate-google": "^1.5.0"
+  }
+}

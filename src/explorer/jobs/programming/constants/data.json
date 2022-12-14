@@ -1,0 +1,11 @@
+{
+  "description": "list sites of programming jobs",
+  "sites": [
+      "stack(overflow)",
+      "git(hub|lab)",
+      "w3school(s)",
+      "developer.mozila",
+      "java(script)",
+      "geek(force)"
+    ]
+}
