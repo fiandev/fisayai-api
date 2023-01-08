@@ -33,6 +33,10 @@ export default class GoogleSearchController extends Controller {
             for await (let site of job.sites) {
               if (site.test(url)) {
                 try {
+                  this.setTemplate({
+                    job: job.name
+                  });
+                  
                   result = await job.handler(url);
                   isDone = true;
                   break;
